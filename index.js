@@ -1,6 +1,6 @@
 // first tasK_________________________________________________________
 
-var strangeNumbers = 5 + 5 + '5'
+const strangeNumbers = 5 + 5 + '5'
 
 console.log("first task:")
 console.log(strangeNumbers)
@@ -9,7 +9,7 @@ console.log("___________________________________")
 
 // ___________________________________________________________________
 // second tasK________________________________________________________
-var myEmail = "illia323@gmail.com"
+const myEmail = "illia323@gmail.com"
 
 if (myEmail.includes("@")){
     console.log("second task:")
@@ -25,10 +25,10 @@ if (myEmail.includes("@")){
 // ___________________________________________________________________
 // third tasK_________________________________________________________
 
-var my = 'My'
-var name = 'name'
-var is = 'is'
-var fullNme = my + " " + name + " " + is + " " + "Viktor"
+const my = 'My'
+const name = 'name'
+const is = 'is'
+const fullNme = my + " " + name + " " + is + " " + "Viktor"
 
 console.log("third task:")
 console.log(fullNme)
@@ -37,8 +37,8 @@ console.log("___________________________________")
 // ___________________________________________________________________
 // fourth tasK________________________________________________________
 
-var userName = "Олександра"
-var payment = "399"
+const userName = "Олександра"
+const payment = "399"
 
 alert(`Дякуємо, ${userName}! До сплати ${payment} гривень.`);
 
